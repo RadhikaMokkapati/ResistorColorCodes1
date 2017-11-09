@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorColorCodes.Management", "ResistorColorCodes\ResistorColorCodes.Management.csproj", "{4A7FB54C-482D-4D8C-964D-DE19394E00A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorColorCodes.Provider", "ResistorColorCodes.Provider\ResistorColorCodes.Provider.csproj", "{635F328A-450B-4BFA-B716-17D11118441E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{B3861C88-37DB-4A01-BE14-B849C9C3468F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResistorColorCodes.UnitTests", "ResistorColorCodes.UnitTests\ResistorColorCodes.UnitTests.csproj", "{99ECBF64-3EFC-4172-8625-9D00C2218262}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A7FB54C-482D-4D8C-964D-DE19394E00A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7FB54C-482D-4D8C-964D-DE19394E00A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7FB54C-482D-4D8C-964D-DE19394E00A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7FB54C-482D-4D8C-964D-DE19394E00A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635F328A-450B-4BFA-B716-17D11118441E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635F328A-450B-4BFA-B716-17D11118441E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635F328A-450B-4BFA-B716-17D11118441E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635F328A-450B-4BFA-B716-17D11118441E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99ECBF64-3EFC-4172-8625-9D00C2218262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99ECBF64-3EFC-4172-8625-9D00C2218262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99ECBF64-3EFC-4172-8625-9D00C2218262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99ECBF64-3EFC-4172-8625-9D00C2218262}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99ECBF64-3EFC-4172-8625-9D00C2218262} = {B3861C88-37DB-4A01-BE14-B849C9C3468F}
+	EndGlobalSection
+EndGlobal

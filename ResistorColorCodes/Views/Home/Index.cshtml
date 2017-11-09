@@ -1,0 +1,30 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "Resistor Color Codes";
+}
+
+<h2>Resistor Color Codes</h2>
+@using (Html.BeginForm("Submit", "Home"))
+{
+    <table>
+        <tr>
+            <td>
+                ColorA: @Html.DropDownList("colorA")
+
+                ColorB: @Html.DropDownList("colorB")
+
+                ColorC: @Html.DropDownList("colorC")
+
+                ColorD: @Html.DropDownList("colorD")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit">SUBMIT</button>
+
+                @Html.TextBox("value")
+            </td>
+        </tr>
+    </table>
+}
