@@ -23,8 +23,7 @@ namespace ResistorColorCodes.UnitTests
         }
 
 
-        [TestMethod]
-        [ExpectedException(typeof(ArgumentException), "Please Enter Valid BandColors")]
+        [TestMethod]        
         public void ValidateWrongColorCodesTest()
         {
             try
@@ -36,8 +35,7 @@ namespace ResistorColorCodes.UnitTests
             {
                 Assert.AreEqual("Please Enter Valid BandColors", ex.Message);
                 //throw ex;
-            }
-            
+            }            
         }
 
         [TestMethod]
